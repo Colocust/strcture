@@ -37,11 +37,12 @@
 
     http://localhost/tiny/public/api/Index 
 <div align="left" style="margin-top:30px">
-    <font face="Microsoft YaHei UI" size=3>如果返回结果如图所示:</font>
+    <font face="Microsoft YaHei UI" size=3>如果返回结果如下:</font>
 </div> 
-<div align="left" style="margin-top:10px">
-    <img src="../image/install-success.png">
-</div>
+
+    {
+        "code":200
+    }
 <div align="left" style="margin-top:30px">
     <font face="Microsoft YaHei UI" size=3>恭喜你，现在已经完成了Tiny-PHP的安装</font>
 </div>
