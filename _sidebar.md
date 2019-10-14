@@ -19,6 +19,5 @@
     * [MongoDB](database/mongodb.md)
     * [MySQL](database/mysql.md)  
      
-* [扩展类库](extend/extend.md)
 * [框架内置业务](service/service.md)
 * [错误日志](log/log.md)
