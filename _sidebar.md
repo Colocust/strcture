@@ -7,8 +7,7 @@
   **入门**
     * [快速开始](start/start.md)
     * [API](start/api.md)
-    * [APIRequest](start/apirequest.md)
-    * [APIResponse](start/apiresponse.md)
+    * [参数验证](start/validate.md)
     * [Token](start/token.md)
         
 * [公共函数](common/common.md)

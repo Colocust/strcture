@@ -17,4 +17,8 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/start/apirequest.md" />
+    <file url="file://$PROJECT_DIR$/start/apiresponse.md" />
+  </component>
 </project>
