@@ -9,7 +9,7 @@
 </div>
 <div align="left" style="margin-top:10px">
     <font face="Microsoft YaHei UI" size=3>
-    打开之前创建的IndexRequest，假如目前我们需要的请求参数为id，它的数据类型是int并且为必传参数，那么我们可以这样定义:
+    打开之前创建的IndexRequest，假如目前我们需要的请求参数为id，它的数据类型是int并且为必要参数，那么我们可以这样定义:
     </font>
 </div>
 
@@ -68,7 +68,7 @@
      }
 
 >###### 关于*class[ ]的使用方法
-     场景和object一样，我们只需要在$userInfo字段的声明中加上数组的定义格式即可
+     场景和*class一样，我们只需要在$userInfo字段的声明中加上数组的定义格式即可
      class GetUserInfoRequest extends Request {
         /**
          * @var UserInfoItem[]
