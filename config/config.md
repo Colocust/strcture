@@ -2,16 +2,25 @@
     <font face="Microsoft YaHei UI" size=5>全局配置</font>
 </div>
 
-<div>
-    <font face="Microsoft YaHei UI" size=3>目前Tiny中存在5个配置文件，开发者只需要关注app.php以及db.php，其余三个配置文件与具体业务有关。</font>
-</div>
-
->###### app.php
+>###### ali.php(阿里产品配置)
+    目前没有任何配置
+    
+>###### app.php(框架核心配置)
     app_debug                是否开启调试模式。On开启，Off关闭。
     log_file                 错误日志的默认路径，开发者可自行修改。
-    upload_file_folder       文件上传后的默认路径，开发者可自行修改。
+    upload_file_folder       文件上传后的默认存储路径，开发者可自行修改。
  
->###### db.php
+>###### db.php(数据库配置)
     mongodb                  mongodb的配置参数
     redis                    redis的配置参数
     mysql                    mysql数据库的配置参数
+    
+>###### map.php(地图配置)
+    amap                     高德地图配置参数
+    tmap                     腾讯地图配置参数
+    bmap                     百度地图配置参数
+        
+>###### wechat.php(微信产品配置)
+    mini_program             微信小程序配置参数
+    access_token_url         获取access_token接口url地址
+    payment                  微信支付配置参数
