@@ -22,7 +22,9 @@
 * 框架内置业务
     * [文件上传](service/upload.md)    
     * 第三方支付
-        * [微信支付](service/payment/wechat.md)       
+        * [微信支付](service/payment/wechat.md)   
+    * 第三方登录
+        * [微信登录](service/login/wechat.md)    
     * 微信小程序
         * [登录](service/miniprogram/login.md)
         * [模板消息](service/miniprogram/template_message.md)

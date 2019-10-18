@@ -24,3 +24,4 @@
     mini_program             微信小程序配置参数
     access_token_url         获取access_token接口url地址
     payment                  微信支付配置参数
+    third_party_login        第三方登录配置参数
