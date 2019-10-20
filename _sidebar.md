@@ -22,7 +22,7 @@
         * [添加数据](database/mongodb/insert.md)
         * [删除数据](database/mongodb/delete.md)
         * [更新数据](database/mongodb/update.md)
-        * [链式操作](database/mongodb/connection.md)
+        * [链式操作](database/mongodb/operate.md)
     * [MySQL](database/mysql.md) 
           
 * 框架内置业务
