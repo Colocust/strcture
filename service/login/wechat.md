@@ -10,7 +10,7 @@
 
 >###### 使用方法
     
-    Factory::weChatLogin()->login(string $code);
+    Factory::weChatLogin()->login($code);
     注意此Factory类的命名空间为service\login\Factory
 
 >###### 注意
