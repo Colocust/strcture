@@ -2,7 +2,7 @@
     <font face="Microsoft YaHei UI" size=5>链式操作</font>
 </div>
 
-`where`
+>###### where
    
     User::where('age','>',18)
         ->where('name','=','tiny')
@@ -10,14 +10,14 @@
      
 <div style="margin-top:50px"></div>   
 
-`in`
+>###### in
 
     User::in('age',[18,19])
         ->find();
         
 <div style="margin-top:50px"></div>   
     
-`or`
+>###### or
     
     //查询age=18 or name='tiny'的数据
     User::or('age','=',18)
@@ -27,16 +27,16 @@
   
 <div style="margin-top:50px"></div>
     
-`limit`
+>###### limit
     
     //指定返回满足条件的5条数据
     User::limit(5)
         ->find();
     
     
-<div style="margin-top:50px"></div>  
-
-`field`
+<div style="margin-top:50px"></div> 
+ 
+>###### field
     
     //指定返回的字段
     User::field('_id','name')
@@ -44,7 +44,7 @@
  
 <div style="margin-top:50px"></div>    
     
-`sort`
+>###### sort
     
     //指定字段进行排序(1升序-1降序)
     User::sort('age',1)

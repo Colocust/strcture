@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ae9bd59-8d80-4029-b55e-499540eff0fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/mongodb/operate.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mongodb/delete.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/mongodb/delete.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mongodb/find.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/mongodb/find.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mongodb/insert.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/mongodb/insert.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mongodb/update.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/mongodb/update.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/mongodb/operate.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/mongodb/operate.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/database/mongodb/find.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="152">
-                <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,8 +66,8 @@
         <entry file="file://$PROJECT_DIR$/database/mongodb/operate.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="536">
-                <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+              <first_editor relative-caret-position="76">
+                <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -261,12 +255,12 @@
       <workItem from="1571301489623" duration="1229000" />
       <workItem from="1571363665635" duration="2899000" />
       <workItem from="1571546867428" duration="413000" />
-      <workItem from="1571559201465" duration="6748000" />
+      <workItem from="1571559201465" duration="7026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81425000" />
+    <option name="totallyTimeSpent" value="81703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -662,8 +656,8 @@
     <entry file="file://$PROJECT_DIR$/database/mongodb/find.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           </first_editor>
           <second_editor />
         </state>
@@ -672,8 +666,8 @@
     <entry file="file://$PROJECT_DIR$/database/mongodb/operate.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="536">
-            <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
