@@ -23,7 +23,7 @@
     进入app/db路径，创建一个用户类，并继承tiny\MongoDB。
     
     class User extends tiny\MongoDB {
-        //填写此类对应的集合(十分关键！)
+        //填写此类对应的集合(非常关键！)
         protected $table = 'user';
     }
     
