@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ae9bd59-8d80-4029-b55e-499540eff0fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/mongodb/aggregate.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mongodb/connection.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/mongodb/connection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mongodb/find.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/mongodb/find.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mongodb/operate.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/mongodb/update.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/mongodb/update.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +32,20 @@
         <entry file="file://$PROJECT_DIR$/service/login/wechat.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="190">
-                <caret line="10" column="7" selection-start-line="10" selection-end-line="10" selection-end-column="7" />
+              <first_editor relative-caret-position="228">
+                <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/mongodb/aggregate.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="422">
+                <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
               </first_editor>
               <second_editor />
             </state>
@@ -49,42 +58,6 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="494">
                 <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sidebar.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="403">
-                <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/mongodb/update.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="294">
-                <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/mongodb/delete.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="76">
-                <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="37" />
               </first_editor>
               <second_editor />
             </state>
@@ -106,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Service/SERVICE.md" />
         <option value="$PROJECT_DIR$/Log/LOG.md" />
         <option value="$PROJECT_DIR$/framework/autoload.md" />
         <option value="$PROJECT_DIR$/framework/route.md" />
@@ -155,8 +127,9 @@
         <option value="$PROJECT_DIR$/database/mongodb/connection.md" />
         <option value="$PROJECT_DIR$/database/mongodb/operate.md" />
         <option value="$PROJECT_DIR$/database/mongodb/find.md" />
-        <option value="$PROJECT_DIR$/_sidebar.md" />
         <option value="$PROJECT_DIR$/database/mongodb/update.md" />
+        <option value="$PROJECT_DIR$/_sidebar.md" />
+        <option value="$PROJECT_DIR$/database/mongodb/aggregate.md" />
       </list>
     </option>
   </component>
@@ -274,12 +247,12 @@
       <workItem from="1571546867428" duration="413000" />
       <workItem from="1571559201465" duration="7147000" />
       <workItem from="1571716411959" duration="1782000" />
-      <workItem from="1571727273475" duration="1285000" />
+      <workItem from="1571727273475" duration="6764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84891000" />
+    <option name="totallyTimeSpent" value="90370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -298,7 +271,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32650074" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32551318" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -615,27 +588,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/mongodb/connection.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="475">
-            <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/mongodb/operate.md" />
-    <entry file="file://$PROJECT_DIR$/service/login/wechat.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="190">
-            <caret line="10" column="7" selection-start-line="10" selection-end-line="10" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/mongodb/delete.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -646,11 +599,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/mongodb/update.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="874">
+            <caret line="52" column="57" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_sidebar.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="403">
-            <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <first_editor relative-caret-position="456">
+            <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           </first_editor>
           <second_editor />
         </state>
@@ -666,11 +629,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/mongodb/update.md">
+    <entry file="file://$PROJECT_DIR$/database/mongodb/connection.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="294">
-            <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <first_editor relative-caret-position="380">
+            <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/login/wechat.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/mongodb/aggregate.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="422">
+            <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
           </first_editor>
           <second_editor />
         </state>
