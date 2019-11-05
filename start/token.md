@@ -23,15 +23,11 @@
     
 >###### 完整的Token流程
     //生成token
-    $token = MyTokenInfo::newToken($uid,$channel);
-    //将需要存储的信息进行赋值
-    $tokenInfo = new MyTokenInfo();
-    $tokenInfo->token = $token;
-    $tokenInfo->uid = $uid;
-    $tokenInfo->channel = $channel;
+    $tokenInfo = MyTokenInfo::newToken($uid,$channel);
+    
     //设置token
-    $myToken = new MyToken($token);
-    $myToken->setToken($tokenInfo);   
+    $token = new MyToken();
+    $token->setToken($tokenInfo);
     //获取token中存储的信息(此类必须继承/api/API)
     $uid = $this->getNet()->getUID();
     $channel = $this->getNet()->getChannel();
