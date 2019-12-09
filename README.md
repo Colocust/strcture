@@ -2,6 +2,6 @@
     <img src="./logo.png">
 </div>
 <div align="center">
-    <font align="center" face="Microsoft YaHei UI" size=5>Subtle-PHP开发文档</font>
+    <font align="center" face="Microsoft YaHei UI" size=5>tiny-PHP开发文档</font>
 </div>
 
