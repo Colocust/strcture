@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ae9bd59-8d80-4029-b55e-499540eff0fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/doc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Subtle-docs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/base/install.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preface/preface.md" beforeDir="false" afterPath="$PROJECT_DIR$/preface/preface.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/login/wechat.md" beforeDir="false" afterPath="$PROJECT_DIR$/service/login/wechat.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start/validator.md" beforeDir="false" afterPath="$PROJECT_DIR$/start/validator.md" afterDir="false" />
-    </list>
+    <list default="true" id="9ae9bd59-8d80-4029-b55e-499540eff0fa" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,36 +24,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="76">
+                <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/login/wechat.md">
+        <entry file="file://$PROJECT_DIR$/preface/preface.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="399">
-                <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/miniprogram.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="38">
-                <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/service.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="475">
-                <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+              <first_editor relative-caret-position="95">
+                <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -71,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/service/upload.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="258">
+              <first_editor relative-caret-position="380">
                 <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               </first_editor>
               <second_editor />
@@ -83,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/start/api.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="94">
+              <first_editor relative-caret-position="722">
                 <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
               </first_editor>
               <second_editor />
@@ -96,7 +89,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="1007">
-                <caret line="53" column="42" lean-forward="true" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+                <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
               </first_editor>
               <second_editor />
             </state>
@@ -119,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/start/validator.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="19">
+              <first_editor relative-caret-position="475">
                 <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               </first_editor>
               <second_editor />
@@ -132,7 +125,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
-                <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+                <caret column="10" selection-start-column="10" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -144,7 +137,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
-                <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+                <caret column="8" selection-start-column="8" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -206,7 +199,6 @@
         <option value="$PROJECT_DIR$/service/miniprogram/wxa_code.md" />
         <option value="$PROJECT_DIR$/service/map.md" />
         <option value="$PROJECT_DIR$/log/log.md" />
-        <option value="$PROJECT_DIR$/config/config.md" />
         <option value="$PROJECT_DIR$/service/miniprogram/login.md" />
         <option value="$PROJECT_DIR$/database/mongodb.md" />
         <option value="$PROJECT_DIR$/database/mongodb/insert.md" />
@@ -217,11 +209,12 @@
         <option value="$PROJECT_DIR$/database/mongodb/update.md" />
         <option value="$PROJECT_DIR$/_sidebar.md" />
         <option value="$PROJECT_DIR$/database/mongodb/aggregate.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/base/install.md" />
         <option value="$PROJECT_DIR$/preface/preface.md" />
         <option value="$PROJECT_DIR$/service/login/wechat.md" />
         <option value="$PROJECT_DIR$/start/validator.md" />
+        <option value="$PROJECT_DIR$/config/config.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -245,87 +238,18 @@
         <subPane>
           <expand>
             <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="tiny-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tiny-docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="tiny-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tiny-docs" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="extend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="tiny-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tiny-docs" type="462c0819:PsiDirectoryNode" />
               <item name="preface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="payment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="start" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Subtle-docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Subtle-docs" type="462c0819:PsiDirectoryNode" />
-              <item name="tiny" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -393,17 +317,18 @@
       <workItem from="1571716411959" duration="1782000" />
       <workItem from="1571727273475" duration="7805000" />
       <workItem from="1574074094466" duration="183000" />
+      <workItem from="1575858946365" duration="247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91594000" />
+    <option name="totallyTimeSpent" value="91841000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23720682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3016086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -416,7 +341,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3240469" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3240469" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -504,16 +429,6 @@
     <entry file="file://$PROJECT_DIR$/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/directory.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -539,16 +454,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="323">
             <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="380">
-            <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           </first_editor>
           <second_editor />
         </state>
@@ -644,16 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preface/preface.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/miniprogram/login.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -704,11 +599,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service/login/wechat.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service/miniprogram.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="38">
-            <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
@@ -718,7 +623,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="475">
-            <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
@@ -727,7 +632,7 @@
     <entry file="file://$PROJECT_DIR$/service/upload.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="258">
+          <first_editor relative-caret-position="380">
             <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           </first_editor>
           <second_editor />
@@ -737,7 +642,7 @@
     <entry file="file://$PROJECT_DIR$/start/api.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="94">
+          <first_editor relative-caret-position="722">
             <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
           </first_editor>
           <second_editor />
@@ -748,7 +653,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1007">
-            <caret line="53" column="42" lean-forward="true" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+            <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
           </first_editor>
           <second_editor />
         </state>
@@ -764,11 +669,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/start/validator.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="475">
+            <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tiny/autoload.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
-            <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+            <caret column="10" selection-start-column="10" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
@@ -778,27 +693,37 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
-            <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+            <caret column="8" selection-start-column="8" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/start/validator.md">
+    <entry file="file://$PROJECT_DIR$/config/config.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/login/wechat.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="399">
-            <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preface/preface.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
