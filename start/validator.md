@@ -23,7 +23,7 @@
         public $id;
     }
 >###### var
-    目前Tiny支持int,float,string,int[],float[],string[],*class,*class[],telephone,email,
+    目前zz支持int,float,string,int[],float[],string[],*class,*class[],telephone,email,
     idNumber,file的规则。
 
 >###### uses
