@@ -11,6 +11,8 @@
     |
     |-config              配置文件
     |
+    |-extend              扩展文件
+    |
     |-framework           框架系统目录
     |  
     |-public              对外访问目录
