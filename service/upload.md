@@ -17,8 +17,8 @@
         public function doRun(): Response {
             $request = UploadAPIRequest::fromAPI($this);
             $response = new UploadAPIResponse();
-            //只需一行代码，返回值为文件的存储地址(完整的url地址需要开发者自行拼接)。
-            $response->fileName = Upload::uploadFile($request->file);
+            //uploadFile方法会返回文件上传后的访问地址
+            $response->fileUrl = Upload::uploadFile($request->file);
             return $response;
         }      
     }
@@ -41,5 +41,5 @@
         /**
          * @var string 
          */
-        public $fileName;
+        public $fileUrl;
     }
