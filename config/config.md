@@ -8,6 +8,7 @@
 >###### app.php(框架核心配置)
     log_file                 错误日志的默认路径，开发者可自行修改。
     upload_file_folder       文件上传后的默认存储路径，开发者可自行修改。
+    upload_file_url          文件上传后的访问地址，开发者可自行修改。
  
 >###### db.php(数据库配置)
     mongodb                  mongodb的配置参数
