@@ -23,7 +23,7 @@ func (is *IntSet) Add(value int) bool {
 	}
 	is.contents = append(is.contents, 0)
 	copy(is.contents[pos+1:], is.contents[pos:])
-	is.Set(pos, value)
+	is.contents[pos] = value
 	return true
 }
 
@@ -43,7 +43,7 @@ func (is *IntSet) Find(value int) (exist bool) {
 
 func (is *IntSet) Random() int {
 	rand.Seed(time.Now().Unix())
-	random := rand.Intn(len(is.contents))
+	random := rand.Intn(is.Len())
 	return is.contents[random]
 }
 
@@ -51,12 +51,8 @@ func (is *IntSet) Get(pos int) int {
 	return is.contents[pos]
 }
 
-func (is *IntSet) GetLen() int {
+func (is *IntSet) Len() int {
 	return len(is.contents)
-}
-
-func (is *IntSet) Set(pos int, value int) {
-	is.contents[pos] = value
 }
 
 // 根据value找到所对应的下标
