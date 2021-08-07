@@ -26,7 +26,7 @@ func newNode(value interface{}) *ListNode {
 	}
 }
 
-func (l *List) AddNodeHead(value interface{}) {
+func (l *List) AddHead(value interface{}) {
 	node := newNode(value)
 	if l.len == 0 {
 		l.head, l.tail = node, node
@@ -36,7 +36,7 @@ func (l *List) AddNodeHead(value interface{}) {
 	l.len++
 }
 
-func (l *List) AddNodeTail(value interface{}) {
+func (l *List) AddTail(value interface{}) {
 	node := newNode(value)
 	if l.len == 0 {
 		l.head, l.tail = node, node
@@ -75,12 +75,12 @@ func (l *List) RotateHeadToTail() {
 	l.tail = head
 }
 
-//在链表中查找指定key的节点
-func (l *List) SearchKey(key interface{}) *ListNode {
+//在链表中查找指定value的节点
+func (l *List) Search(value interface{}) *ListNode {
 	cur := l.head
 
 	for cur != nil {
-		if cur.value == key {
+		if cur.value == value {
 			return cur
 		}
 		cur = cur.next
@@ -110,7 +110,7 @@ func (l *List) Index(index int) *ListNode {
 }
 
 //指定节点前后插入一个新节点 after决定前后
-func (l *List) InsertNode(oldNode *ListNode, value interface{}, after bool) {
+func (l *List) Insert(oldNode *ListNode, value interface{}, after bool) {
 	node := newNode(value)
 
 	if after {
@@ -138,8 +138,8 @@ func (l *List) InsertNode(oldNode *ListNode, value interface{}, after bool) {
 	l.len++
 }
 
-//此方法有问题吧 如果删除的节点不在指定的list 需要开发者自行注意
-func (l *List) DelNode(n *ListNode) {
+//如果删除的节点不在指定的list 需要开发者自行注意
+func (l *List) Del(n *ListNode) {
 	if n.prev == nil {
 		l.head = n.next
 	} else {
@@ -155,7 +155,7 @@ func (l *List) DelNode(n *ListNode) {
 	l.len--
 }
 
-func (l *List) GetLen() uint {
+func (l *List) Len() uint {
 	return l.len
 }
 
@@ -167,7 +167,7 @@ func (l *List) Tail() *ListNode {
 	return l.tail
 }
 
-func (n *ListNode) GetValue() interface{} {
+func (n *ListNode) Value() interface{} {
 	return n.value
 }
 
