@@ -1,5 +1,7 @@
 package strcture
 
+import "math"
+
 type (
 	ListNode struct {
 		value interface{}
@@ -91,6 +93,17 @@ func (l *List) Search(value interface{}) *ListNode {
 
 //获取指定索引的节点
 func (l *List) Index(index int) *ListNode {
+	if index < 0 {
+		abs := uint(math.Abs(float64(index)))
+		if abs > l.Len() {
+			return nil
+		}
+	} else {
+		if uint(index) > l.len-1 {
+			return nil
+		}
+	}
+
 	var n *ListNode
 	if index < 0 {
 		index = (-index) - 1
