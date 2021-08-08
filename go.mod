@@ -1,4 +1,4 @@
-module strcture
+module github.com/Colocust/strcture
 
 go 1.13
 
