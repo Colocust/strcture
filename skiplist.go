@@ -35,7 +35,7 @@ type (
 
 func NewSkipList() *SkipList {
 	sl := &SkipList{
-		header: NewSkipListNode("", 0, skipListMaxLevel),
+		header: newSkipListNode("", 0, skipListMaxLevel),
 		length: 0,
 		level:  skipListInitLevel,
 	}
@@ -47,7 +47,7 @@ func NewSkipList() *SkipList {
 	return sl
 }
 
-func NewSkipListNode(ele string, score float32, level int8) *SkipListNode {
+func newSkipListNode(ele string, score float32, level int8) *SkipListNode {
 	return &SkipListNode{
 		ele:   ele,
 		score: score,
@@ -95,7 +95,7 @@ func (sl *SkipList) Insert(ele string, score float32) *SkipListNode {
 	}
 
 	level := randomLevel()
-	node = NewSkipListNode(ele, score, level)
+	node = newSkipListNode(ele, score, level)
 
 	if level > sl.level {
 		for i := sl.level; i < level; i++ {
@@ -202,8 +202,8 @@ func (sl *SkipList) UpdateScore(ele string, curScore float32, newScore float32) 
 	return nil
 }
 
-// IsInRange 判断跳表中是否由元素的值在指定区间内
-func (sl *SkipList) IsInRange(zrs *ZRangeSpec) bool {
+// isInRange 判断跳表中是否由元素的值在指定区间内
+func (sl *SkipList) isInRange(zrs *ZRangeSpec) bool {
 	if zrs.min > zrs.max || (zrs.min == zrs.max && (zrs.minex || zrs.maxex)) {
 		return false
 	}
@@ -224,7 +224,7 @@ func (sl *SkipList) IsInRange(zrs *ZRangeSpec) bool {
 func (sl *SkipList) FirstInRange(zrs *ZRangeSpec) *SkipListNode {
 	var node *SkipListNode
 
-	if !sl.IsInRange(zrs) {
+	if !sl.isInRange(zrs) {
 		return nil
 	}
 
@@ -248,7 +248,7 @@ func (sl *SkipList) FirstInRange(zrs *ZRangeSpec) *SkipListNode {
 func (sl *SkipList) LastInRange(zrs *ZRangeSpec) *SkipListNode {
 	var node *SkipListNode
 
-	if !sl.IsInRange(zrs) {
+	if !sl.isInRange(zrs) {
 		return nil
 	}
 
@@ -306,7 +306,7 @@ func (sl *SkipList) DeleteByRank(start, end uint, dict *Dict) uint {
 	node = update[0].level[0].forward
 	traversed++
 
-	for node.level[0].forward != nil && traversed <= end {
+	for node != nil && traversed <= end {
 		next := node.level[0].forward
 		sl.delete(node, update)
 		dict.Remove(node.ele)
@@ -327,7 +327,7 @@ func (sl *SkipList) GetRank(ele string, score float32) uint {
 		for node.level[i].forward != nil &&
 			(node.level[i].forward.score < score ||
 				(node.level[i].forward.score == score &&
-					strings.Compare(node.level[i].forward.ele, ele) == 0)) {
+					strings.Compare(node.level[i].forward.ele, ele) <= 0)) {
 			rank += node.level[i].span
 			node = node.level[i].forward
 		}
